@@ -222,4 +222,4 @@ while infor == 22:
     infor = submit(url, data)
 print(infor)
 
-print(str(time.time()-aatime))
+print(str(time.time()-nowtime))
