@@ -10,9 +10,9 @@ import random
 import execjs
 
 def get_infor(img):
-    APP_ID = '23589367'
-    API_KEY = 'cVOtt7wQtwDXIdh38kEtizAG'
-    SECRET_KEY = 'Brul9on20orcnT23aGERxcjtqiGfkfFQ'
+    APP_ID = '你的AppID'
+    API_KEY = '你的API Key'
+    SECRET_KEY = '你的Secret Key'
     client = AipOcr(APP_ID, API_KEY, SECRET_KEY)
     res = client.basicGeneral(img)
     infor= res.setdefault('words_result', [{'words': 0}])
