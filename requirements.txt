@@ -1,0 +1,6 @@
+pywin32
+baidu-aip
+requests
+pyExecJs
+PyQt5
+chardet
